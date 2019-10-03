@@ -1,0 +1,14 @@
+[package]
+name = "recipes"
+version = "2.0.0"
+authors = ["Anonymous"]
+edition = "2018"
+
+[workspace]
+members = [
+	"kitchen/modules/adding-machine",
+	"kitchen/modules/basic-token",
+  "kitchen/check-membership",
+  "kitchen/child-trie",
+
+]
