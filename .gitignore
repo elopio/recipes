@@ -2,14 +2,12 @@
 k.md
 # to be made into a larger PR for Substrate soon
 v002.md
-**/*/drafts/
-**/*/*/drafts/
+**/drafts/
 
 # local staging; need not be pushed
 book
 
 # need not push the executables
-**/*/target
-**/*/Cargo.lock
-**/*/.DS_Store
+**/target
+**/Cargo.lock
 **/.DS_Store
