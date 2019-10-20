@@ -4,33 +4,39 @@ version = "2.0.0"
 authors = ["Anonymous"]
 edition = "2018"
 
+# Considered making the ndoe the default binary.
+# But then all its dependencies have t obe listed here.
+# [[bin]]
+# name = "super-node"
+# path = "kitchen/node/src.main.rs"
+
 [workspace]
 members = [
 	"kitchen/modules/adding-machine",
 	"kitchen/modules/basic-token",
-	"kitchen/check-membership",
-	"kitchen/child-trie",
-	"kitchen/currency-imbalances",
-	"kitchen/custom-origin",
-	"double-map",
-	"gen-random",
-	"generic-event",
-	"hello-substrate",
-	"linked-map",
-	"lockable-currency",
-	"module-constant-config",
-	"reservable-currency",
-	"schedule-on-finalize",
-	"simple-event",
-	"simple-map",
-	"single-value",
-	"social-network",
-	"srml-panic",
-	"storage-cache",
-	"struct-storage",
-	"treasury",
-	"vec-set",
-	"weight",
+	# "kitchen/check-membership",
+	# "kitchen/child-trie",
+	# "kitchen/currency-imbalances",
+	# "kitchen/custom-origin",
+	# "double-map",
+	# "gen-random",
+	# "generic-event",
+	# "hello-substrate",
+	# "linked-map",
+	# "lockable-currency",
+	# "module-constant-config",
+	# "reservable-currency",
+	# "schedule-on-finalize",
+	# "simple-event",
+	# "simple-map",
+	# "single-value",
+	# "social-network",
+	# "srml-panic",
+	# "storage-cache",
+	# "struct-storage",
+	# "treasury",
+	# "vec-set",
+	# "weight",
 	"kitchen/runtimes/super-node-runtime",
 	"kitchen/runtimes/super-node-genesis",
 	"kitchen/node",
